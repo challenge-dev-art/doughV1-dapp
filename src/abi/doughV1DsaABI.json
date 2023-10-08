@@ -1,0 +1,119 @@
+[
+    {
+        "inputs": [
+            {
+                "internalType": "address",
+                "name": "_owner",
+                "type": "address"
+            },
+            {
+                "internalType": "address",
+                "name": "_DoughV1Index",
+                "type": "address"
+            }
+        ],
+        "stateMutability": "nonpayable",
+        "type": "constructor"
+    },
+    {
+        "inputs": [],
+        "name": "DoughV1Index",
+        "outputs": [
+            {
+                "internalType": "address",
+                "name": "",
+                "type": "address"
+            }
+        ],
+        "stateMutability": "view",
+        "type": "function"
+    },
+    {
+        "inputs": [
+            {
+                "internalType": "uint256",
+                "name": "_connectorId",
+                "type": "uint256"
+            },
+            {
+                "internalType": "uint256",
+                "name": "_actionId",
+                "type": "uint256"
+            },
+            {
+                "internalType": "address",
+                "name": "_token1",
+                "type": "address"
+            },
+            {
+                "internalType": "address",
+                "name": "_token2",
+                "type": "address"
+            },
+            {
+                "internalType": "uint256",
+                "name": "_amount",
+                "type": "uint256"
+            },
+            {
+                "internalType": "bool",
+                "name": "_opt",
+                "type": "bool"
+            }
+        ],
+        "name": "doughCall",
+        "outputs": [],
+        "stateMutability": "payable",
+        "type": "function"
+    },
+    {
+        "inputs": [
+            {
+                "internalType": "address",
+                "name": "loanToken",
+                "type": "address"
+            },
+            {
+                "internalType": "uint256",
+                "name": "inAmount",
+                "type": "uint256"
+            },
+            {
+                "internalType": "uint256",
+                "name": "outAmount",
+                "type": "uint256"
+            },
+            {
+                "internalType": "uint256",
+                "name": "funcId",
+                "type": "uint256"
+            },
+            {
+                "internalType": "bool",
+                "name": "isShield",
+                "type": "bool"
+            }
+        ],
+        "name": "executeAction",
+        "outputs": [],
+        "stateMutability": "nonpayable",
+        "type": "function"
+    },
+    {
+        "inputs": [],
+        "name": "owner",
+        "outputs": [
+            {
+                "internalType": "address",
+                "name": "",
+                "type": "address"
+            }
+        ],
+        "stateMutability": "view",
+        "type": "function"
+    },
+    {
+        "stateMutability": "payable",
+        "type": "receive"
+    }
+]
